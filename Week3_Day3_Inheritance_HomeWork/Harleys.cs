@@ -8,13 +8,15 @@ namespace Week3_Day3_Inheritance_HomeWork
 {
     class Harleys
     {
-        //fields
+        //fields (Instance Variables)
         protected int engineSize;
         protected double fuelTankCapacity;
         protected string rearTireWidth;
-        protected int weight;
+        protected string color;
+        //protected int weight;
+        protected int travelingSpeed;
 
-        //Properties (Instance Variables)
+        //Properties 
 
         protected int EngineSize
         {
@@ -31,10 +33,10 @@ namespace Week3_Day3_Inheritance_HomeWork
             get { return this.rearTireWidth; }
             set { this.rearTireWidth = value; }
         }
-        protected int Weight
+        protected string Color
         {
-            get { return this.weight; }
-            set { this.weight = value; }
+            get { return this.color; }
+            set { this.color = value; }
         }
 
         //Constructor(s)
@@ -42,6 +44,13 @@ namespace Week3_Day3_Inheritance_HomeWork
         {
             //default constructor
         }
-
+        public Harleys(int engineSize, double fuelTankCapacity, string rearTireWidth, string color, int travelingSpeed)
+        {
+            this.engineSize = engineSize;
+            this.fuelTankCapacity = fuelTankCapacity;
+            this.rearTireWidth = rearTireWidth;
+            this.color = color;
+            this.travelingSpeed = travelingSpeed;
+        }
     }
 }

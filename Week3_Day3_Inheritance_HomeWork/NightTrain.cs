@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace Week3_Day3_Inheritance_HomeWork
 {
-    class Program
+    class NightTrain : Harleys
     {
-        static void Main(string[] args)
-        {
-            
-        }
+
     }
 }
