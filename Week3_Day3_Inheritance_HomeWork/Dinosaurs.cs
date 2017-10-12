@@ -39,7 +39,7 @@ namespace Week3_Day3_Inheritance_HomeWork
             this.name = name;
             this.moveStyle = moveStyle;
             this.eats = eats;
-            this.runningSpeed = 0;
+            this.runningSpeed = runningSpeed;
             this.distanceCovered = 0;
 
         }
